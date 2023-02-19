@@ -53,7 +53,7 @@ updates.
 
 | Name | Info | Application | List of CAs |
 |------|------|-------------|-------------|
-| Gmail S/MIME | [Link](https://support.google.com/a/answer/7448393?hl=en) | N/A | [Link](https://support.google.com/a/answer/7448393?hl=en) |
+| Gmail S/MIME[^gmail] | [Link](https://support.google.com/a/answer/7448393?hl=en) | N/A | [Link](https://support.google.com/a/answer/7448393?hl=en) |
 
 ## Footnotes
 
@@ -68,3 +68,6 @@ CAs to date.
 
 [^aatl]: This is mainly used for Document Signing, and not for TLS Server or
 Client certificates.
+
+[^gmail]: This is used for S/MIME certificates sent and received by Gmail. This
+is not used for TLS Server or Client certificates (e.g. SMTP or IMAP).
