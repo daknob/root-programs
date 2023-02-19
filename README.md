@@ -38,6 +38,7 @@ is typically required to participate.
 | Chrome Root Program | [Link](https://g.co/chrome/root-policy) | [Link](https://www.chromium.org/Home/chromium-security/root-ca-policy/apply-for-inclusion/) | [Link](https://g.co/chrome/root-store) |
 | Mozilla CA Certificate Program | [Link](https://wiki.mozilla.org/CA) | [Link](https://wiki.mozilla.org/CA/Application_Process) | [Link](https://wiki.mozilla.org/CA/Included_CAs) |
 | Microsoft Trusted Root Program | [Link](https://learn.microsoft.com/en-us/security/trusted-root/program-requirements) | [Link](https://learn.microsoft.com/en-us/security/trusted-root/new-ca-application) | [Link](https://learn.microsoft.com/en-us/security/trusted-root/participants-list) |
+| Oracle Java SE | [Link](https://www.oracle.com/java/technologies/javase/carootcertsprogram.html) | [Link](https://www.oracle.com/java/technologies/javase/carootcertsprogram.html) | `$ keytool -list -cacerts -storepass changeit`[^java] |
 
 ## Trust Stores
 
@@ -52,3 +53,14 @@ updates.
 | Name | Info | Application | List of CAs |
 |------|------|-------------|-------------|
 | Gmail S/MIME | [Link](https://support.google.com/a/answer/7448393?hl=en) | N/A | [Link](https://support.google.com/a/answer/7448393?hl=en) |
+
+## Footnotes
+
+[^java]: Each Java version and edition comes with its own list of certificates.
+This is also different per JRE, so OpenJDK has a different list than Oracle JDK,
+etc. Moreover, some OSes have separate packages, independent of Java, such as
+the [`ca-certificates-java`](https://packages.debian.org/stable/ca-certificates-java)
+on Debian / Ubuntu. Applying to the Oracle Root Program will eventually and
+hopefully trickle down to all other Java Runtimes / Environments / Editions /
+OSes / ... but there's no guarantee. Java remains a painpoint for all WebPKI
+CAs to date.
