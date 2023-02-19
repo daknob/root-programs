@@ -57,6 +57,7 @@ updates.
 | Gmail S/MIME[^gmail] | [Link](https://support.google.com/a/answer/7448393?hl=en) | N/A | [Link](https://support.google.com/a/answer/7448393?hl=en) |
 | Cisco PKI | [Link](https://www.cisco.com/security/pki/) | [Link](https://www.cisco.com/security/pki/) | [Link](https://www.cisco.com/security/pki/) |
 | Android[^android] | [Link](https://android.googlesource.com/platform/system/ca-certificates/) | N/A | [Link](https://android.googlesource.com/platform/system/ca-certificates/+/refs/heads/master/files/) |
+| Sony PlayStation[^playstation] | N/A | N/A | PS4: [Link](https://www.sie.com/content/dam/corporate/jp/guideline/PS4_Web_Content-Guidelines_e.pdf) |
 
 ## Footnotes
 
@@ -82,3 +83,9 @@ It used to be tied to the OS version, which means that phones that don't receive
 updates will not ever load new certificates. The latest Android releases make
 this more dynamic and independently updateable. Even older Android phones came
 with a list burned in the hardware, which is impossible to change.
+
+[^playstation]: Sony's Playstation consoles seem to have a list of Root CAs that
+is built in the firmware and is not being updated. This is the case for at least
+PlayStation 3 and 4. PlayStation 5 seems to ship with an updateable Trust Store,
+however information on included CAs, critera for inclusion, etc. are not readily
+available.
