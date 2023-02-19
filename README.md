@@ -55,6 +55,7 @@ updates.
 | Name | Info | Application | List of CAs |
 |------|------|-------------|-------------|
 | Gmail S/MIME[^gmail] | [Link](https://support.google.com/a/answer/7448393?hl=en) | N/A | [Link](https://support.google.com/a/answer/7448393?hl=en) |
+| Cisco PKI | [Link](https://www.cisco.com/security/pki/) | [Link](https://www.cisco.com/security/pki/) | [Link](https://www.cisco.com/security/pki/) |
 
 ## Footnotes
 
