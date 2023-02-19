@@ -40,6 +40,7 @@ is typically required to participate.
 | Microsoft Trusted Root Program | [Link](https://learn.microsoft.com/en-us/security/trusted-root/program-requirements) | [Link](https://learn.microsoft.com/en-us/security/trusted-root/new-ca-application) | [Link](https://learn.microsoft.com/en-us/security/trusted-root/participants-list) |
 | Oracle Java SE | [Link](https://www.oracle.com/java/technologies/javase/carootcertsprogram.html) | [Link](https://www.oracle.com/java/technologies/javase/carootcertsprogram.html) | `$ keytool -list -cacerts -storepass changeit`[^java] |
 | Adobe Approved Trust List[^aatl] | [Link](https://helpx.adobe.com/acrobat/kb/approved-trust-list2.html) | [Link](https://helpx.adobe.com/acrobat/kb/approved-trust-list2.html) | [Link](https://helpx.adobe.com/acrobat/kb/approved-trust-list1.html) |
+| Qihoo 360 Browser Root Certificate Program | [Link](https://caprogram.360.cn/#plan) | [Link](https://caprogram.360.cn/#flow) | [Link](https://caprogram.360.cn/#trust) |
 
 ## Trust Stores
 
