@@ -56,6 +56,7 @@ updates.
 |------|------|-------------|-------------|
 | Gmail S/MIME[^gmail] | [Link](https://support.google.com/a/answer/7448393?hl=en) | N/A | [Link](https://support.google.com/a/answer/7448393?hl=en) |
 | Cisco PKI | [Link](https://www.cisco.com/security/pki/) | [Link](https://www.cisco.com/security/pki/) | [Link](https://www.cisco.com/security/pki/) |
+| Android[^android] | [Link](https://android.googlesource.com/platform/system/ca-certificates/) | N/A | [Link](https://android.googlesource.com/platform/system/ca-certificates/+/refs/heads/master/files/) |
 
 ## Footnotes
 
@@ -73,3 +74,11 @@ Client certificates.
 
 [^gmail]: This is used for S/MIME certificates sent and received by Gmail. This
 is not used for TLS Server or Client certificates (e.g. SMTP or IMAP).
+
+[^android]: The situation with Android is a bit complicated. DigiCert explains
+a few things in a great post
+[here](https://www.digicert.com/blog/official-list-trusted-root-certificates-android).
+It used to be tied to the OS version, which means that phones that don't receive
+updates will not ever load new certificates. The latest Android releases make
+this more dynamic and independently updateable. Even older Android phones came
+with a list burned in the hardware, which is impossible to change.
