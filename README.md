@@ -39,6 +39,7 @@ is typically required to participate.
 | Mozilla CA Certificate Program | [Link](https://wiki.mozilla.org/CA) | [Link](https://wiki.mozilla.org/CA/Application_Process) | [Link](https://wiki.mozilla.org/CA/Included_CAs) |
 | Microsoft Trusted Root Program | [Link](https://learn.microsoft.com/en-us/security/trusted-root/program-requirements) | [Link](https://learn.microsoft.com/en-us/security/trusted-root/new-ca-application) | [Link](https://learn.microsoft.com/en-us/security/trusted-root/participants-list) |
 | Oracle Java SE | [Link](https://www.oracle.com/java/technologies/javase/carootcertsprogram.html) | [Link](https://www.oracle.com/java/technologies/javase/carootcertsprogram.html) | `$ keytool -list -cacerts -storepass changeit`[^java] |
+| Adobe Approved Trust List[^aatl] | [Link](https://helpx.adobe.com/acrobat/kb/approved-trust-list2.html) | [Link](https://helpx.adobe.com/acrobat/kb/approved-trust-list2.html) | [Link](https://helpx.adobe.com/acrobat/kb/approved-trust-list1.html) |
 
 ## Trust Stores
 
@@ -64,3 +65,6 @@ on Debian / Ubuntu. Applying to the Oracle Root Program will eventually and
 hopefully trickle down to all other Java Runtimes / Environments / Editions /
 OSes / ... but there's no guarantee. Java remains a painpoint for all WebPKI
 CAs to date.
+
+[^aatl]: This is mainly used for Document Signing, and not for TLS Server or
+Client certificates.
