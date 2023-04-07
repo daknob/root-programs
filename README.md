@@ -58,6 +58,7 @@ updates.
 | Cisco PKI | [Link](https://www.cisco.com/security/pki/) | [Link](https://www.cisco.com/security/pki/) | [Link](https://www.cisco.com/security/pki/) |
 | Android[^android] | [Link](https://android.googlesource.com/platform/system/ca-certificates/) | N/A | [Link](https://android.googlesource.com/platform/system/ca-certificates/+/refs/heads/master/files/) |
 | Sony PlayStation[^playstation] | N/A | N/A | PS4: [Link](https://www.sie.com/content/dam/corporate/jp/guideline/PS4_Web_Content-Guidelines_e.pdf) |
+| VISA | N/A | N/A | [Link](https://developer.visa.com/pages/trusted_certifying_authorities/) |
 
 ## Footnotes
 
